@@ -4,15 +4,54 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Portfolio</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      .container {
+        text-align: center;
+      }
+      .contents li {
+        display: inline-block;
+      }
+      .profile {
+        font-size: 20px;
+      }
+      footer {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <span>header</span>
+    </header>
+    <div class="container">
+      <div class="page-header">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-3"><a href=""><img src="sample.png" alt=""><h3>N°1</h3></a></div>
+        <div class="col-md-3"><a href=""><img src="sample.png" alt=""><h3>N°2</h3></a></div>
+        <div class="col-md-3"><a href=""><img src="sample.png" alt=""><h3>N°3</h3></a></div>
+        <div class="col-md-3"><a href=""><img src="sample.png" alt=""><h3>N°4</h3></a></div>
+      </div>
+      <div class="profile">
+        <p>Hi, I'm Satoru Kanaoka.</p>
+        <p>I'm an astronomy student in the University of Tokyo.</p>
+        <p>Now, I am studying hydro-dynamics simulation.</p>
+        <ul>
+          <li><a href="https://www.facebook.com/satoru.kanaoka">Facebook</a></li>
+          <li><a href="https://www.github.com/rahydyn">Github</a></li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div class="copyright" >©︎KANAOKASATORU</div>
+    </footer>
   </body>
 </html>
